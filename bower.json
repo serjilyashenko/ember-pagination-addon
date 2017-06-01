@@ -1,4 +1,6 @@
 {
   "name": "ember-pagination-addon",
-  "dependencies": {}
+  "dependencies": {
+    "semantic-ui": "^2.2.9"
+  }
 }
