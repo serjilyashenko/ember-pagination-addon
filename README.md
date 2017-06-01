@@ -4,24 +4,14 @@ This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-pagination-addon`
-* `npm install`
-* `bower install`
+Install this add-on through Ember CLI.
 
-## Running
+* From the command line run:<br />
+`ember install git+https://github.com/serjilyashenko/ember-pagination-addon.git`
+* Once installed, run the library's blueprint to pull in its Bower dependencies. This only needs to be done once.<br />
+`ember generate ember-pagination-addon`
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+## Integration
 
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+* component ...
+* mixins ...
