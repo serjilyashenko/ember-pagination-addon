@@ -47,6 +47,6 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
-    "defaultBlueprint": "ember-pagination-addon"
+    "defaultBlueprint": "add-bower"
   }
 }
