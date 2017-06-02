@@ -46,7 +46,6 @@
     "node": ">= 4"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config",
-    "defaultBlueprint": "add-bower"
+    "configPath": "tests/dummy/config"
   }
 }
