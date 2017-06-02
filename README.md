@@ -10,6 +10,7 @@ Install this add-on through Ember CLI.
 `ember install git+https://github.com/serjilyashenko/ember-pagination-addon.git`
 * Once installed, run the library's blueprint to pull in its Bower dependencies. This only needs to be done once.<br />
 `ember generate ember-pagination-addon`
+* Install bower dependencies: `bower install`
 
 ## Integration
 
