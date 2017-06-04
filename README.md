@@ -22,7 +22,7 @@ Install this add-on through Ember CLI.
  }}
 ```
 
-* And you must throw action throw action 'setPage' throw all components between controller and component with pagination.
+* And you must throw 'setPage' action through all components between controller and component with pagination.
 
 * Extend target route and controller using `PaginationRouteMixin` and `PginationRouteMixin` respectively.
 ```js
