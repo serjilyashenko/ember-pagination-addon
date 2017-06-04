@@ -14,5 +14,35 @@ Install this add-on through Ember CLI.
 
 ## Integration
 
-* component ...
-* mixins ...
+* Add component to a template:
+```hbs
+{{articles/index-page
+   model=model
+   setPage=(action 'setPage')
+ }}
+```
+
+* Extend target route and controller using `PaginationRouteMixin` and `PginationRouteMixin` respectively.
+```js
+import Ember from 'ember';
+import PaginationRouteMixin from 'ember-pagination-addon/mixins/pagination-router-mixin';
+
+export default Ember.Route.extend(PaginationRouteMixin, {
+});
+```
+```js
+import Ember from 'ember';
+import PaginationControllerMixin from 'ember-pagination-addon/mixins/pagination-controller-mixin';
+
+export default Ember.Controller.extend(PaginationControllerMixin, {
+});
+```
+* By default it is applied 30 pages limit. For customization of this use property limit:
+```js
+import Ember from 'ember';
+import PaginationControllerMixin from 'ember-pagination-addon/mixins/pagination-controller-mixin';
+
+export default Ember.Controller.extend(PaginationControllerMixin, {
+  limit: 30,
+});
+```
